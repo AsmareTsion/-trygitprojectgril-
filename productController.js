@@ -1,7 +1,7 @@
 const express = require("express");
 
 exports.GetAllproduct=async(req,res)=>{
-    const productList = ["chair","table","shoes"];
+    const productList = ["chair","table","shoes","green","black"];
     res.send(productList);
 }
 exports.Addproduct = async (req,res)=>{
